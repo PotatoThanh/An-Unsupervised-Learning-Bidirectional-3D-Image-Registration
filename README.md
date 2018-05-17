@@ -1,2 +1,17 @@
 # A-Unsupervised-Learning-Bidirectional-3D-Image-Registration
 The model contains 1 encoder and 2 decoders for bidirectional (source -> target, target -> source) 3D images registration with skip connections like Unet.
+# How many GPUs do you need?
+- You have to set at least 4 GPUs in config.py file
+# Keras with Tensorflow backend
+- Please intall it when you want to run.
+- Don't forget to set your checkpoints and logs folders
+# How to run?
+- python train.py
+- python test.py
+# You can visualize your training process using Tensorboard
+- tensorboard --logdir=/logs
+# Note: You can only use it for research purposes. If you want to use for your publication(s), please contact me to avoid confliction.
+<p align="center">
+  <img src="my_model.png" width="800"/>
+</p>
+
