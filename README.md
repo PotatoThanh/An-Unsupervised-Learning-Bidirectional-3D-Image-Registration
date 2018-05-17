@@ -10,7 +10,7 @@ The model contains 1 encoder and 2 decoders for bidirectional (source -> target,
 - python test.py
 # You can visualize your training process using Tensorboard
 - tensorboard --logdir=/logs
-#Acknowledgement
+# Acknowledgement
 - This model is quite similar to Balakrishnan, Guha, et al. "An Unsupervised Learning Model for Deformable Medical Image Registration." arXiv preprint arXiv:1802.02604 (2018) paper.
 # Note: You can only use it for research purposes. If you want to use for your publication(s), please contact me to avoid confliction.
 <p align="center">
